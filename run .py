@@ -8,7 +8,7 @@ import re
 import os
 
 # Load configuration
-bot = telebot.TeleBot('7509113069:AAEomwzwLl6rsN-YfI8b-dN0jRRSsHf7hZs')  # Set timeout to 60 seconds
+bot = telebot.TeleBot('8123262273:AAG8S_cT4uQw8_lLKJx0RPs9nSz6O8z4C2Q')  # Set timeout to 60 seconds
 
 async def send_message_with_retry(chat_id, text, retries=3):
     for attempt in range(retries):
